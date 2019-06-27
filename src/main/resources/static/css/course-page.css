@@ -1,0 +1,27 @@
+
+#container {
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+#container table {
+  width: 45%;
+}
+
+a {
+  font-size: 40px;
+  text-underline: none;
+
+  margin-left: 50px;
+}
+
+a:link, a:visited, a:active {
+  color: black;
+}
+
+a:hover {
+  color: #bbbbbb;
+}
